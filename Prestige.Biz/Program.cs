@@ -5,6 +5,7 @@ namespace Prestige.Biz
 {
     class Program
     {
+        
         public const int ConstantNumber = 100;
         public static readonly int ReadOnlyNumber = 0;
         static Program ()
@@ -13,7 +14,7 @@ namespace Prestige.Biz
         }
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Hello Git Hub");
             Console.WriteLine(ConstantNumber);
             Console.WriteLine(ReadOnlyNumber);
             Agency agency = null;
