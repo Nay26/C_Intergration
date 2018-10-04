@@ -14,7 +14,7 @@ namespace Prestige.Biz
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Git Hub");
+            Console.WriteLine("Hello Git Hub 2");
             Console.WriteLine(ConstantNumber);
             Console.WriteLine(ReadOnlyNumber);
             Agency agency = null;
